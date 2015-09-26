@@ -22,10 +22,15 @@ int main()
 int a,b,c;
 printf("NAMA : AHMAD DWIYANTO \n");
 printf("NIM : D400150059 \n");
+printf("persamaan kuadrat ax^2+bx+c=0 \n");
 printf("Masukkan nilai a : \n");scanf("%d",&a);
+if (a==0){
+printf("a tidak boleh nol \n");
+}
+else{
 printf("Masukkan nilai b : \n");scanf("%d",&b);
 printf("Masukkan nilai c : \n");scanf("%d",&c);
 AkarKuadrat(a,b,c);
 return 0;
 }
-
+}
